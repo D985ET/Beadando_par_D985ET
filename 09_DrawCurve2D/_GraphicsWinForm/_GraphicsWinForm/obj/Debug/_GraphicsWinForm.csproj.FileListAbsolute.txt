@@ -1,0 +1,81 @@
+D:\Maja\GrafikaOrai\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsWinForm.exe.config
+D:\Tanulás\5.félév\Grafika\otodik_ora\09\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsWinForm.exe.config
+D:\Tanulás\5.félév\Grafika\otodik_ora\09\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsWinForm.exe
+D:\Tanulás\5.félév\Grafika\otodik_ora\09\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsWinForm.pdb
+D:\Tanulás\5.félév\Grafika\otodik_ora\09\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsDLL.dll
+D:\Tanulás\5.félév\Grafika\otodik_ora\09\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsDLL.pdb
+D:\Tanulás\5.félév\Grafika\otodik_ora\09\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.csproj.AssemblyReference.cache
+D:\Tanulás\5.félév\Grafika\otodik_ora\09\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.Form1.resources
+D:\Tanulás\5.félév\Grafika\otodik_ora\09\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.Properties.Resources.resources
+D:\Tanulás\5.félév\Grafika\otodik_ora\09\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.csproj.GenerateResource.cache
+D:\Tanulás\5.félév\Grafika\otodik_ora\09\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.csproj.CoreCompileInputs.cache
+D:\Tanulás\5.félév\Grafika\otodik_ora\09\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.csproj.CopyComplete
+D:\Tanulás\5.félév\Grafika\otodik_ora\09\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.exe
+D:\Tanulás\5.félév\Grafika\otodik_ora\09\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.pdb
+D:\Programozás\5.félév\Grafika\otodik_ora\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsWinForm.exe.config
+D:\Programozás\5.félév\Grafika\otodik_ora\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsWinForm.exe
+D:\Programozás\5.félév\Grafika\otodik_ora\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsWinForm.pdb
+D:\Programozás\5.félév\Grafika\otodik_ora\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsDLL.dll
+D:\Programozás\5.félév\Grafika\otodik_ora\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsDLL.pdb
+D:\Programozás\5.félév\Grafika\otodik_ora\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.csproj.AssemblyReference.cache
+D:\Programozás\5.félév\Grafika\otodik_ora\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.Form1.resources
+D:\Programozás\5.félév\Grafika\otodik_ora\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.Properties.Resources.resources
+D:\Programozás\5.félév\Grafika\otodik_ora\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.csproj.GenerateResource.cache
+D:\Programozás\5.félév\Grafika\otodik_ora\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.csproj.CoreCompileInputs.cache
+D:\Programozás\5.félév\Grafika\otodik_ora\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.csproj.CopyComplete
+D:\Programozás\5.félév\Grafika\otodik_ora\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.exe
+D:\Programozás\5.félév\Grafika\otodik_ora\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.pdb
+D:\Programozás\5.félév\Grafika\5_óra\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsWinForm.exe.config
+D:\Programozás\5.félév\Grafika\5_óra\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsWinForm.exe
+D:\Programozás\5.félév\Grafika\5_óra\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsWinForm.pdb
+D:\Programozás\5.félév\Grafika\5_óra\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsDLL.dll
+D:\Programozás\5.félév\Grafika\5_óra\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsDLL.pdb
+D:\Programozás\5.félév\Grafika\5_óra\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.csproj.AssemblyReference.cache
+D:\Programozás\5.félév\Grafika\5_óra\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.Form1.resources
+D:\Programozás\5.félév\Grafika\5_óra\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.Properties.Resources.resources
+D:\Programozás\5.félév\Grafika\5_óra\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.csproj.GenerateResource.cache
+D:\Programozás\5.félév\Grafika\5_óra\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.csproj.CoreCompileInputs.cache
+D:\Programozás\5.félév\Grafika\5_óra\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.csproj.CopyComplete
+D:\Programozás\5.félév\Grafika\5_óra\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.exe
+D:\Programozás\5.félév\Grafika\5_óra\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.pdb
+D:\Tanulás\5.félév\Grafika\BEadandó\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsWinForm.exe.config
+D:\Tanulás\5.félév\Grafika\BEadandó\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsWinForm.exe
+D:\Tanulás\5.félév\Grafika\BEadandó\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsWinForm.pdb
+D:\Tanulás\5.félév\Grafika\BEadandó\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsDLL.dll
+D:\Tanulás\5.félév\Grafika\BEadandó\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsDLL.pdb
+D:\Tanulás\5.félév\Grafika\BEadandó\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.csproj.AssemblyReference.cache
+D:\Tanulás\5.félév\Grafika\BEadandó\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.Form1.resources
+D:\Tanulás\5.félév\Grafika\BEadandó\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.Properties.Resources.resources
+D:\Tanulás\5.félév\Grafika\BEadandó\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.csproj.GenerateResource.cache
+D:\Tanulás\5.félév\Grafika\BEadandó\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.csproj.CoreCompileInputs.cache
+D:\Tanulás\5.félév\Grafika\BEadandó\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.csproj.CopyComplete
+D:\Tanulás\5.félév\Grafika\BEadandó\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.exe
+D:\Tanulás\5.félév\Grafika\BEadandó\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.pdb
+D:\Proginfó\5.félév\Grafika\BEadandó\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsWinForm.exe.config
+D:\Proginfó\5.félév\Grafika\BEadandó\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsWinForm.exe
+D:\Proginfó\5.félév\Grafika\BEadandó\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsWinForm.pdb
+D:\Proginfó\5.félév\Grafika\BEadandó\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsDLL.dll
+D:\Proginfó\5.félév\Grafika\BEadandó\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsDLL.pdb
+D:\Proginfó\5.félév\Grafika\BEadandó\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.csproj.AssemblyReference.cache
+D:\Proginfó\5.félév\Grafika\BEadandó\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.csproj.SuggestedBindingRedirects.cache
+D:\Proginfó\5.félév\Grafika\BEadandó\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.Form1.resources
+D:\Proginfó\5.félév\Grafika\BEadandó\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.Properties.Resources.resources
+D:\Proginfó\5.félév\Grafika\BEadandó\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.csproj.GenerateResource.cache
+D:\Proginfó\5.félév\Grafika\BEadandó\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.csproj.CoreCompileInputs.cache
+D:\Proginfó\5.félév\Grafika\BEadandó\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.csproj.CopyComplete
+D:\Proginfó\5.félév\Grafika\BEadandó\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.exe
+D:\Proginfó\5.félév\Grafika\BEadandó\Házi görbék\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.pdb
+D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsWinForm.exe.config
+D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsWinForm.exe
+D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsWinForm.pdb
+D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsDLL.dll
+D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\bin\Debug\_GraphicsDLL.pdb
+D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.csproj.AssemblyReference.cache
+D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.csproj.SuggestedBindingRedirects.cache
+D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.Form1.resources
+D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.Properties.Resources.resources
+D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.csproj.GenerateResource.cache
+D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.csproj.CoreCompileInputs.cache
+D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.csproj.CopyComplete
+D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.exe
+D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\09_DrawCurve2D\_GraphicsWinForm\_GraphicsWinForm\obj\Debug\_GraphicsWinForm.pdb

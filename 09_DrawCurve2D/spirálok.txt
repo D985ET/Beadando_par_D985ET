@@ -1,0 +1,6 @@
+Butterfly curve:
+https://en.wikipedia.org/wiki/Butterfly_curve_(transcendental)
+Lissajous curve: 
+https://en.wikipedia.org/wiki/Lissajous_curve
+Cardioid curve:
+https://en.wikipedia.org/wiki/Cardioid

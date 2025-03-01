@@ -1,0 +1,29 @@
+D:\Maja\GrafikaOrai\_GraphicsDLL\_GraphicsDLL\bin\Debug\_GraphicsDLL.dll
+D:\Maja\GrafikaOrai\_GraphicsDLL\_GraphicsDLL\bin\Debug\_GraphicsDLL.pdb
+D:\Maja\GrafikaOrai\_GraphicsDLL\_GraphicsDLL\obj\Debug\_GraphicsDLL.csprojResolveAssemblyReference.cache
+D:\Maja\GrafikaOrai\_GraphicsDLL\_GraphicsDLL\obj\Debug\_GraphicsDLL.dll
+D:\Maja\GrafikaOrai\_GraphicsDLL\_GraphicsDLL\obj\Debug\_GraphicsDLL.pdb
+D:\Tanulás\5.félév\Grafika\negyedik ora\_GraphicsDLL\_GraphicsDLL\bin\Debug\_GraphicsDLL.dll
+D:\Tanulás\5.félév\Grafika\negyedik ora\_GraphicsDLL\_GraphicsDLL\bin\Debug\_GraphicsDLL.pdb
+D:\Tanulás\5.félév\Grafika\negyedik ora\_GraphicsDLL\_GraphicsDLL\obj\Debug\_GraphicsDLL.csproj.AssemblyReference.cache
+D:\Tanulás\5.félév\Grafika\negyedik ora\_GraphicsDLL\_GraphicsDLL\obj\Debug\_GraphicsDLL.csproj.CoreCompileInputs.cache
+D:\Tanulás\5.félév\Grafika\negyedik ora\_GraphicsDLL\_GraphicsDLL\obj\Debug\_GraphicsDLL.dll
+D:\Tanulás\5.félév\Grafika\negyedik ora\_GraphicsDLL\_GraphicsDLL\obj\Debug\_GraphicsDLL.pdb
+D:\Tanulás\5.félév\Grafika\otodik_ora\_GraphicsDLL\_GraphicsDLL\bin\Debug\_GraphicsDLL.dll
+D:\Tanulás\5.félév\Grafika\otodik_ora\_GraphicsDLL\_GraphicsDLL\bin\Debug\_GraphicsDLL.pdb
+D:\Tanulás\5.félév\Grafika\otodik_ora\_GraphicsDLL\_GraphicsDLL\obj\Debug\_GraphicsDLL.csproj.AssemblyReference.cache
+D:\Tanulás\5.félév\Grafika\otodik_ora\_GraphicsDLL\_GraphicsDLL\obj\Debug\_GraphicsDLL.csproj.CoreCompileInputs.cache
+D:\Tanulás\5.félév\Grafika\otodik_ora\_GraphicsDLL\_GraphicsDLL\obj\Debug\_GraphicsDLL.dll
+D:\Tanulás\5.félév\Grafika\otodik_ora\_GraphicsDLL\_GraphicsDLL\obj\Debug\_GraphicsDLL.pdb
+D:\Tanulás\5.félév\Grafika\BEadandó\Házi görbék\_GraphicsDLL\_GraphicsDLL\bin\Debug\_GraphicsDLL.dll
+D:\Tanulás\5.félév\Grafika\BEadandó\Házi görbék\_GraphicsDLL\_GraphicsDLL\bin\Debug\_GraphicsDLL.pdb
+D:\Tanulás\5.félév\Grafika\BEadandó\Házi görbék\_GraphicsDLL\_GraphicsDLL\obj\Debug\_GraphicsDLL.csproj.AssemblyReference.cache
+D:\Tanulás\5.félév\Grafika\BEadandó\Házi görbék\_GraphicsDLL\_GraphicsDLL\obj\Debug\_GraphicsDLL.csproj.CoreCompileInputs.cache
+D:\Tanulás\5.félév\Grafika\BEadandó\Házi görbék\_GraphicsDLL\_GraphicsDLL\obj\Debug\_GraphicsDLL.dll
+D:\Tanulás\5.félév\Grafika\BEadandó\Házi görbék\_GraphicsDLL\_GraphicsDLL\obj\Debug\_GraphicsDLL.pdb
+D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\_GraphicsDLL\_GraphicsDLL\bin\Debug\_GraphicsDLL.dll
+D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\_GraphicsDLL\_GraphicsDLL\bin\Debug\_GraphicsDLL.pdb
+D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\_GraphicsDLL\_GraphicsDLL\obj\Debug\_GraphicsDLL.csproj.AssemblyReference.cache
+D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\_GraphicsDLL\_GraphicsDLL\obj\Debug\_GraphicsDLL.csproj.CoreCompileInputs.cache
+D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\_GraphicsDLL\_GraphicsDLL\obj\Debug\_GraphicsDLL.dll
+D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\_GraphicsDLL\_GraphicsDLL\obj\Debug\_GraphicsDLL.pdb

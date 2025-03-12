@@ -27,3 +27,9 @@ D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\_GraphicsDLL\_Gr
 D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\_GraphicsDLL\_GraphicsDLL\obj\Debug\_GraphicsDLL.csproj.CoreCompileInputs.cache
 D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\_GraphicsDLL\_GraphicsDLL\obj\Debug\_GraphicsDLL.dll
 D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\_GraphicsDLL\_GraphicsDLL\obj\Debug\_GraphicsDLL.pdb
+D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\Beadando_par_D985ET\_GraphicsDLL\_GraphicsDLL\bin\Debug\_GraphicsDLL.dll
+D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\Beadando_par_D985ET\_GraphicsDLL\_GraphicsDLL\bin\Debug\_GraphicsDLL.pdb
+D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\Beadando_par_D985ET\_GraphicsDLL\_GraphicsDLL\obj\Debug\_GraphicsDLL.csproj.AssemblyReference.cache
+D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\Beadando_par_D985ET\_GraphicsDLL\_GraphicsDLL\obj\Debug\_GraphicsDLL.csproj.CoreCompileInputs.cache
+D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\Beadando_par_D985ET\_GraphicsDLL\_GraphicsDLL\obj\Debug\_GraphicsDLL.dll
+D:\Mérnökinfó\4. félév\párh_prog\beadandó\Görbék párh\Beadando_par_D985ET\_GraphicsDLL\_GraphicsDLL\obj\Debug\_GraphicsDLL.pdb

@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace _GraphicsDLL
@@ -14,6 +15,7 @@ namespace _GraphicsDLL
    
         #region ParametricCurve2D
 
+        //Szekvenciális
         public static async Task DrawParameters2D(this Graphics g,
       Func<double, double> X, Func<double, double> Y,
       double a, double b, double scale = 1.0, double cX = 0, double cY = 0, double n = 500.0)
@@ -61,6 +63,7 @@ namespace _GraphicsDLL
             stopwatch.Stop();
             Console.WriteLine($"Drawing completed in {stopwatch.Elapsed.TotalMilliseconds} ms");
         }
+        //1. megoldás:
         public static async Task<double> DrawParameters2DAsync(this Graphics g,
      Func<double, double> X, Func<double, double> Y,
      double a, double b, double scale = 1.0, double cX = 0, double cY = 0, double n = 500.0, int threadCount = 4)
@@ -132,7 +135,89 @@ namespace _GraphicsDLL
             return elapsedMilliseconds;
         }
 
+        public static double DrawParameters2DAsync02(this Graphics g,
+       Func<double, double> X, Func<double, double> Y,
+       double a, double b, double scale = 1.0, double cX = 0, double cY = 0, double n = 500.0, int threadCount = 4)
+        {
+            if (a >= b)
+            {
+                throw new Exception("Invalid interval!");
+            }
 
+            Stopwatch stopwatch = new Stopwatch();
+            stopwatch.Start();
+
+            double h = (b - a) / n;
+            double chunkSize = (b - a) / threadCount;
+            Thread[] threads = new Thread[threadCount];
+            ManualResetEventSlim[] threadCompletionEvents = new ManualResetEventSlim[threadCount];
+
+            // Thread-safe queue to store draw actions
+            ConcurrentBag<Tuple<PointF, PointF, Pen>> lineSegments = new ConcurrentBag<Tuple<PointF, PointF, Pen>>();
+
+            for (int i = 0; i < threadCount; i++)
+            {
+                int threadIndex = i; // Capture loop variable
+                double startT = a + threadIndex * chunkSize;
+                double endT = (threadIndex == threadCount - 1) ? b : startT + chunkSize;
+
+                threadCompletionEvents[threadIndex] = new ManualResetEventSlim(false);
+
+                threads[threadIndex] = new Thread(() =>
+                {
+                    double localT = startT;
+                    PointF p0 = new PointF((float)(scale * X(localT) + cX),
+                                           (float)(scale * Y(localT) + cY));
+
+                    int localRed = 0, localGreen = 255, localBlue = 0; // Ensure colors are local to each thread
+
+                    while (localT < endT)
+                    {
+                        localT += h;
+
+                        PointF p1 = new PointF((float)(scale * X(localT) + cX),
+                                               (float)(scale * Y(localT) + cY));
+
+                        if (localGreen < 255 && localRed > 0)
+                        {
+                            Pen pen = new Pen(Color.FromArgb(localRed, localGreen, localBlue));
+
+                            lineSegments.Add(Tuple.Create(p0, p1, pen)); // Store line segment for later drawing
+
+                            p0 = p1;
+                        }
+
+                        if (localRed < 255)
+                        {
+                            localGreen--;
+                            localRed++;
+                        }
+                    }
+
+                    threadCompletionEvents[threadIndex].Set(); // Mark thread as completed
+                });
+
+                threads[threadIndex].Start();
+            }
+
+            // Wait for all threads to finish
+            foreach (var e in threadCompletionEvents)
+            {
+                e.Wait();
+            }
+
+            // Draw everything in a single thread to avoid race conditions
+            foreach (var segment in lineSegments)
+            {
+                g.DrawLine(segment.Item3, segment.Item1, segment.Item2);
+            }
+
+            stopwatch.Stop();
+            double elapsedMilliseconds = stopwatch.Elapsed.TotalMilliseconds;
+            Console.WriteLine($"Drawing completed in {elapsedMilliseconds} ms with {threadCount} threads");
+
+            return elapsedMilliseconds;
+        }
 
         #endregion
     }

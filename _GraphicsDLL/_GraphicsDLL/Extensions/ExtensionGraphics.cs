@@ -134,7 +134,7 @@ namespace _GraphicsDLL
 
             return elapsedMilliseconds;
         }
-
+        //2. megoldás:
         public static double DrawParameters2DAsync02(this Graphics g,
        Func<double, double> X, Func<double, double> Y,
        double a, double b, double scale = 1.0, double cX = 0, double cY = 0, double n = 500.0, int threadCount = 4)
@@ -218,6 +218,74 @@ namespace _GraphicsDLL
 
             return elapsedMilliseconds;
         }
+
+        // 3. megoldás:
+        //PARALLEL for
+        public static double DrawParameters2DAsync03(this Graphics g,
+    Func<double, double> X, Func<double, double> Y,
+    double a, double b, double scale = 1.0, double cX = 0, double cY = 0, double n = 500.0, int threadCount = 4)
+        {
+            if (a >= b)
+            {
+                throw new Exception("Invalid interval!");
+            }
+
+            Stopwatch stopwatch = new Stopwatch();
+            stopwatch.Start();
+
+            double h = (b - a) / n;
+            double chunkSize = (b - a) / threadCount;
+
+            // Thread-safe collection to store drawing instructions
+            ConcurrentBag<Tuple<PointF, PointF, Pen>> lineSegments = new ConcurrentBag<Tuple<PointF, PointF, Pen>>();
+
+            // Use Parallel.For for efficient thread pool usage
+            Parallel.For(0, threadCount, i =>
+            {
+                double startT = a + i * chunkSize;
+                double endT = (i == threadCount - 1) ? b : startT + chunkSize;
+
+                double localT = startT;
+                PointF p0 = new PointF((float)(scale * X(localT) + cX),
+                                       (float)(scale * Y(localT) + cY));
+
+                int localRed = 0, localGreen = 255, localBlue = 0; // Local color variables per thread
+
+                while (localT < endT)
+                {
+                    localT += h;
+
+                    PointF p1 = new PointF((float)(scale * X(localT) + cX),
+                                           (float)(scale * Y(localT) + cY));
+
+                    if (localGreen < 255 && localRed > 0)
+                    {
+                        Pen pen = new Pen(Color.FromArgb(localRed, localGreen, localBlue));
+                        lineSegments.Add(Tuple.Create(p0, p1, pen));
+                        p0 = p1;
+                    }
+
+                    if (localRed < 255)
+                    {
+                        localGreen--;
+                        localRed++;
+                    }
+                }
+            });
+
+            // Draw everything sequentially to avoid race conditions
+            foreach (var segment in lineSegments)
+            {
+                g.DrawLine(segment.Item3, segment.Item1, segment.Item2);
+            }
+
+            stopwatch.Stop();
+            double elapsedMilliseconds = stopwatch.Elapsed.TotalMilliseconds;
+            Console.WriteLine($"Drawing completed in {elapsedMilliseconds} ms with {threadCount} threads (Parallel.For)");
+
+            return elapsedMilliseconds;
+        }
+
 
         #endregion
     }

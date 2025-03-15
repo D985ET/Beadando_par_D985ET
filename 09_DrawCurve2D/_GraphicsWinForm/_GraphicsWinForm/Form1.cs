@@ -140,7 +140,7 @@ namespace _GraphicsWinForm
                 {
                     elapsedTime = 0;
                     timerLbl.Text += "";
-                    elapsedTime = g.DrawParameters2DAsync02(t => -Math.Sin(t) * (Math.Pow(Math.E, Math.Cos(t)) - 2 * -Math.Cos(4 * t) - Math.Sin(t / 12) * 5),
+                    elapsedTime = g.DrawParameters2DAsync03(t => -Math.Sin(t) * (Math.Pow(Math.E, Math.Cos(t)) - 2 * -Math.Cos(4 * t) - Math.Sin(t / 12) * 5),
                     t => -Math.Cos(t) * (Math.Pow(Math.E, Math.Cos(t)) - 2 * -Math.Cos(4 * t) - Math.Sin(t / 12) * 5),
                                  0,
                                  12 * Math.PI,
@@ -153,7 +153,7 @@ namespace _GraphicsWinForm
                     timerLbl.Text += "";
                     int a = 1, A = 3, b = 3, B = 3;
                     double ordo = Math.PI / 2;
-                    elapsedTime = g.DrawParameters2DAsync02(t => A * -Math.Sin((a * t) + ordo), t => B * -Math.Sin(b * t),
+                    elapsedTime = g.DrawParameters2DAsync03(t => A * -Math.Sin((a * t) + ordo), t => B * -Math.Sin(b * t),
                                              -25,
                                              25,
                                              scale, center.X, center.Y);
@@ -167,7 +167,7 @@ namespace _GraphicsWinForm
                     // x = a(2 cos(t)−cos(2t)),
                     // y=a( 2 sin(t)−sin(2t)).
                     int a = 1;
-                    elapsedTime = g.DrawParameters2DAsync02(
+                    elapsedTime = g.DrawParameters2DAsync03(
                      t => a * -(2 * Math.Cos(t) - Math.Cos(2 * t)), t => a * -(2 * Math.Sin(t) - Math.Sin(2 * t)),
                      -25,
                      25,
@@ -180,7 +180,7 @@ namespace _GraphicsWinForm
                     elapsedTime = 0;
                     timerLbl.Text += "";
                     float a = 0.61f, b = 0.35f;
-                    elapsedTime = g.DrawParameters2DAsync02(/*Pens.Red,*/
+                    elapsedTime = g.DrawParameters2DAsync03(/*Pens.Red,*/
                      t => a * -Math.Pow(Math.E, (b * t)) * Math.Cos(t),
                      t => a * -Math.Pow(Math.E, (b * t)) * -Math.Sin(t),
                      -10,

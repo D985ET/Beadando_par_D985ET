@@ -46,10 +46,9 @@ namespace _GraphicsDLL
                 if (green < 255 && red > 0)
                 {
                     Pen pen = new Pen(Color.FromArgb(red, green, blue));
-                    lock (g)
-                    {
-                        g.DrawLine(pen, p0, p1);
-                    }
+
+                    g.DrawLine(pen, p0, p1);
+                    
                     p0 = p1;
                 }
 

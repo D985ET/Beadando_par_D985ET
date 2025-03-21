@@ -12,10 +12,11 @@ namespace _GraphicsDLL
 {
     public static class ExtensionGraphics
     {
-   
+
         #region ParametricCurve2D
 
         //Szekvenciális
+        /*
         public static async Task DrawParameters2D(this Graphics g,
       Func<double, double> X, Func<double, double> Y,
       double a, double b, double scale = 1.0, double cX = 0, double cY = 0, double n = 500.0)
@@ -62,6 +63,54 @@ namespace _GraphicsDLL
             stopwatch.Stop();
             Console.WriteLine($"Drawing completed in {stopwatch.Elapsed.TotalMilliseconds} ms");
         }
+        */
+        public static void DrawParameters2D(this Graphics g,
+    Func<double, double> X, Func<double, double> Y,
+    double a, double b, double scale = 1.0, double cX = 0, double cY = 0, double n = 500.0)
+        {
+            var stopwatch = new Stopwatch();
+            stopwatch.Start();
+
+            if (a >= b)
+            {
+                throw new Exception("Invalid interval!");
+            }
+
+            int red = 0, green = 255, blue = 0;
+            double t = a;
+            double h = (b - a) / n;
+
+            PointF p0 = new PointF((float)(scale * X(t) + cX), (float)(scale * Y(t) + cY));
+
+            while (t < b)
+            {
+                t += h;
+
+                // Synchronous slow-down (no async/await/threading)
+                Thread.Sleep(5);
+
+                PointF p1 = new PointF((float)(scale * X(t) + cX), (float)(scale * Y(t) + cY));
+
+                if (green < 255 && red > 0)
+                {
+                    using (var pen = new Pen(Color.FromArgb(red, green, blue)))
+                    {
+                        g.DrawLine(pen, p0, p1);
+                    }
+                    p0 = p1;
+                }
+
+                if (red < 255)
+                {
+                    green = Math.Max(0, green - 1);
+                    red = Math.Min(255, red + 1);
+                }
+            }
+
+            stopwatch.Stop();
+            Console.WriteLine($"Drawing completed in {stopwatch.Elapsed.TotalMilliseconds} ms");
+        }
+
         //1. megoldás:
         public static async Task<double> DrawParameters2DAsync(this Graphics g,
      Func<double, double> X, Func<double, double> Y,
